@@ -82,6 +82,8 @@ Data pipeline includes:
 
 ---
 
+
+
 ## 📈 Evaluation
 
 | Stage        | Spearman | Pearson |
@@ -94,14 +96,15 @@ Data pipeline includes:
 ✔ Final model significantly outperforms baseline  
 ✔ Strong separation between similar and dissimilar pairs  
 
-:contentReference[oaicite:3]{index=3}
 
 ---
+
 
 ## 📂 Project Structure
 
 ```bash
 .
+├──app.py             #Demo
 ├── notebooks/        # Jupyter notebooks (core pipeline)
 │   ├── preprocessing.ipynb
 │   ├── main_work.ipynb
@@ -118,3 +121,19 @@ Data pipeline includes:
 │   └── Final_year_project_report.pdf
 │
 └── README.md
+
+
+--- 
+
+
+# 🖥️ Demo
+
+A simple interactive prototype is available using Streamlit.
+
+# Run locally:
+
+pip install streamlit transformers torch
+streamlit run app.py
+
+
+
