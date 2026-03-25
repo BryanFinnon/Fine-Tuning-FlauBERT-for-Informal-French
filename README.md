@@ -102,9 +102,19 @@ Data pipeline includes:
 
 ```bash
 .
-├── data/           # Raw and processed datasets
-├── notebooks/      # Experiments and analysis
-├── src/            # Training and preprocessing pipelines
-├── models/         # Saved checkpoints
-├── results/        # Evaluation outputs and metrics
+├── notebooks/        # Jupyter notebooks (core pipeline)
+│   ├── preprocessing.ipynb
+│   ├── main_work.ipynb
+│   ├── eval.ipynb
+│   ├── visualisation.ipynb
+│
+├── data/             # Datasets (raw, processed, STS)
+│   ├── corpus_maitre.csv
+│   ├── final_corpus.csv
+│   ├── STS_dataset.csv
+│   ├── sts_finetuning_dataset.csv
+│
+├── report/           # Academic report
+│   └── Final_year_project_report.pdf
+│
 └── README.md
