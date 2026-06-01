@@ -137,3 +137,50 @@ streamlit run app.py
 
 
 
+## 🚀 Aperçu du Projet (Screenshots)
+
+### 🖥️ Vue Principale (Hero Shot)
+Voici l'interface utilisateur principale avec des données simulées en temps réel :
+<img src="assets/main-interface.png" alt="Interface principale" width="100%">
+
+### 💡 Fonctionnalités Clés
+<table>
+  <tr>
+    <th width="50%">Le Mode Sombre intégré</th>
+    <th width="50%">L'analyseur de données</th>
+  </tr>
+  <tr>
+    <td><img src="assets/dark-mode.png"></td>
+    <td><img src="assets/analytics-feature.png"></td>
+  </tr>
+</table>
+```
+
+## 🚀 Project Overview (Screenshots)
+
+### 🖥️ Main Dashboard (Hero Shot)
+The central project dashboard tracks the overall performance progression, methodology timeline, and dataset scale ($110\text{K}+$ tokens across informal domains):
+<img src="assets/dashboard.png" alt="FlauBERT Informal French Dashboard" width="100%">
+
+### 💡 Core Features & Technical Workflow
+
+<table>
+  <tr>
+    <th width="50%">🔄 Interactive Semantic Similarity Demo</th>
+    <th width="50%">⚙️ Robust Data Processing Pipeline</th>
+  </tr>
+  <tr>
+    <td>
+      <p>Compare two informal French sentences side-by-side. The model computes a precise similarity score, analyzes token alignment, and quantifies semantic overlap despite heavy slang or typos.</p>
+      <img src="assets/Similarity.png" alt="Semantic Similarity Demo Page">
+    </td>
+    <td>
+      <p>Tracks how raw informal text corpus moves from ingestion through advanced cleaning, informal pattern preservation, and data augmentation techniques to become training-ready data.</p>
+      <img src="assets/pipeline.png" alt="Data Pipeline Overview">
+    </td>
+  </tr>
+</table>
+
+### 📊 Deep-Dive Model Evaluation
+A comprehensive breakdown tracking key evaluation metrics across multiple adaptation stages (Baseline, DAFT, STS FT, and the Final Model). It explicitly surfaces Spearman, Pearson, and $R^2$ scores alongside mathematical cluster separations:
+<img src="assets/evaluation.png" alt="Model Evaluation and Benchmarks Breakdown" width="100%">
