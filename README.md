@@ -1,15 +1,19 @@
 # FlauBERT for Informal French Similarity
 
+[![Quality checks](https://github.com/BryanFinnon/Fine-Tuning-FlauBERT-for-Informal-French/actions/workflows/quality.yml/badge.svg)](https://github.com/BryanFinnon/Fine-Tuning-FlauBERT-for-Informal-French/actions/workflows/quality.yml)
+
 An NLP research project evaluating whether task-specific fine-tuning improves FlauBERT's understanding of informal French, including slang, abbreviations and conversational phrasing.
 
 ## Result
 
 | Model | Spearman correlation |
 |---|---:|
-| Baseline | 0.32 |
-| Fine-tuned model | 0.81 |
+| Baseline | 0.3169 |
+| Fine-tuned model | 0.8420 |
 
 These figures come from the evaluation setup contained in the project notebooks. They measure correlation, not classification accuracy, and should be interpreted within the supplied dataset and split.
+
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the exact evaluation protocol and commands.
 
 ## What the repository contains
 

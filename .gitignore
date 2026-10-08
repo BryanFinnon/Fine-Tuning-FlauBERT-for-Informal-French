@@ -1,1 +1,8 @@
-.env\n.venv/\n__pycache__/\n*.py[cod]\n.ipynb_checkpoints/\n
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+flaubert_daft_done/
+flaubert_informel/
+flaubert_sts_final/
